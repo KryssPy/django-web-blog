@@ -1,0 +1,1 @@
+web: gunicorn kryspy_app.wsgi
