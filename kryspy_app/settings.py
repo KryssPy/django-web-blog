@@ -16,7 +16,7 @@ import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATABASE_URL = 'postgresql://postgres:a5422cbCdAdagA5-Gba33f4C-Caf45BE@postgres.railway.internal:5432/railway'
+DATABASE_URL = 'postgresql://postgres:1c-46-df4AaE5352Agg34CeE5G*5f*21@postgres.railway.internal:5432/railway'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -27,13 +27,7 @@ SECRET_KEY = 'django-insecure-^0-3g(7=tz71i2o!nup%j^c4-+s*r+sd^j6!!oy9xxcpj_y)*d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'localhost',
-    'wsei-cloud.herokuapp.com',
-    '127.0.0.1',
-    '.railway.app',
-    'web-production-990cc.up.railway.app'
-]
+ALLOWED_HOSTS = []
 
 # Application definition
 
