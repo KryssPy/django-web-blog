@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^0-3g(7=tz71i2o!nup%j^c4-+s*r+sd^j6!!oy9xxcpj_y)*d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'wsei-cloud.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', 'wsei-cloud.herokuapp.com', '127.0.0.1', '.railway.app']
 
 # Application definition
 
